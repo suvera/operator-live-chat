@@ -1,2 +1,3 @@
-operator-app-java/src/livechat/* linguist-vendored
-*.dll linguist-vendored=false
+*.dll linguist-vendored
+*.c linguist-vendored
+*.cpp linguist-vendored
