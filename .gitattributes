@@ -1,0 +1,2 @@
+operator-app-java/src/livechat/* linguist-vendored
+*.dll linguist-vendored=false
