@@ -1,0 +1,50 @@
+
+'{"id":"6f9583c2-e542-489c-b495-5bb4c2438754","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"022bb4f8-64d1-4546-bcbb-2379df54426d","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126","sender":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","receiver":"1","module":"ChatBuffer","action":"get_read"}'
+
+'{"id":"362d2ca3-d40e-4640-8897-2dbf23e4b874","module":"VisitorsOnline","args":{"argv0":"12345"},"action":"get_online_visitors","class":"class NRML.ProxyRequestObject"}'
+
+'{"args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126","sender":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","receiver":"1","module":"ChatBuffer","action":"get_read"}'
+
+'{"args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126","sender":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","receiver":"1","module":"ChatBuffer","action":"get_read"}'
+
+'{"id":"c3b1c080-fad8-4831-a13d-fab5e0647590","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"df8489fc-c227-467d-9bc2-0a57ef831811","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"36831279-94a8-4dac-9207-baa0597297e7","module":"VisitorsOnline","args":{"argv0":"12345"},"action":"get_online_visitors","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"41f27f4f-5c2d-4273-bb9f-907decaf0190","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"025c1af5-aa22-483c-bda7-f3f50c38fdd0","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126","sender":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","receiver":"1","module":"ChatBuffer","action":"get_read"}'
+
+'{"id":"2c7bf739-4dd8-4932-b41f-c10a700934fc","module":"VisitorsOnline","args":{"argv0":"12345"},"action":"get_online_visitors","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"50fad881-905d-4cd4-8f3f-1ae5aa3f17ad","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"0859f86e-6f86-4e78-9245-8b23e2e3ed41","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"cacce4d8-5c18-4645-b11d-3089e9144f87","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"5ff62840-28d0-40a9-ab2c-e9713ba2bc77","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"dd51b434-7020-4f04-8136-ef82fd461219","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"3e9d92cc-648c-42f0-9edc-7ee8cf86096f","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"b123c3b9-e4e7-43b8-aead-524afa02e5d4","module":"VisitorsOnline","args":{"argv0":"12345"},"action":"get_online_visitors","class":"class NRML.ProxyRequestObject"}'
+
+'{"args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126","sender":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","receiver":"1"},"module":"ChatBuffer","action":"get_read"}'
+
+'{"id":"48955c85-c8b8-442b-9f04-d6372906d72d","module":"Visitors","args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126"},"action":"get_info","class":"class NRML.ProxyRequestObject"}'
+
+'{"id":"a5547319-4b33-45ed-8709-f4376d867104","module":"Message","args":{"firstTime":"no","receiver":"1","contact_id":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","last_msg_id":"1207397391.947200"},"action":"get_new_message","class":"class NRML.ProxyRequestObject"}'
+
+'{"args":{"contact_id":"72ee24e3240f55d359bd2efd7fe6f126","sender":"72ee24e3240f55d359bd2efd7fe6f126","site_id":"12345","receiver":"1"},"module":"ChatBuffer","action":"get_read"}'
+
+'{"id":"512002d0-caf4-4e9e-b0a7-9966d7bf5e04","module":"VisitorsOnline","args":{"argv0":"12345"},"action":"get_online_visitors","class":"class NRML.ProxyRequestObject"}'

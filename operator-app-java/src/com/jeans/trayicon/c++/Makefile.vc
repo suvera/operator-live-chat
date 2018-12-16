@@ -1,0 +1,70 @@
+# Usage:
+# C:\TRAYICON> VCVARS32
+# Setting environment for using Microsoft Visual C++ tools.
+# C:\TRAYICON> NMAKE /f Makefile.vc
+# ... making
+# C:\TRAYICON> NMAKE /f Makefile.vc CLEAN
+# ... removing objs and precompiled headers
+
+!IF "$(OS)" == "WindowsNT"
+NULL=
+!ELSE
+NULL=nul
+!ENDIF
+
+CXX=cl.exe
+RSC=rc.exe
+MTL=mktyplib.exe
+LINK32=link.exe
+
+OUTDIR=.
+INTDIR=.
+
+# Use this for Sun's JDK 1.1.x
+# JAVA=D:\Java\jdk1.1.8
+# JLIB=$(JAVA)\lib\javai.lib
+# JVER=11
+# JDEF="HAS_OLD_JVM_LIB"
+
+# Use this for Sun's Java 1.2.x and above
+JAVA=C:\Lang\Java\1.4
+#JLIB=$(JAVA)\lib\jvm.lib
+JVER=12
+#JDEF="HAS_JVM_LIB"
+JDEF="NOTHING"
+
+JAWT=$(JAVA)\lib\jawt.lib
+
+CFLAGS= /nologo /MT /W3 /GX /I $(JAVA)\include /I $(JAVA)\include\win32 /D $(JDEF) \
+ 	/D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"$(INTDIR)/TrayIcon$(JVER).pch" /YX /Fo"$(INTDIR)/" /c
+
+CPP_OBJS=.
+CPP_SBRS=
+MTL_PROJ=/nologo /D "NDEBUG" /win32
+BSC32=bscmake.exe
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/EditPad.bsc"
+BSC32_SBRS=
+
+LINK32_FLAGS=kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib \
+ advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comctl32.lib \
+ $(JLIB) /nologo /DLL /IMPLIB:TrayIcon.lib \
+ /subsystem:windows /incremental:no /pdb:"$(OUTDIR)/TrayIcon$(JVER).pdb" \
+ /machine:I386 /out:"$(OUTDIR)/TrayIcon$(JVER).dll"
+
+ALL:	TrayIcon$(JVER).dll
+
+CLEAN:
+	-@erase ".\*.obj"
+	-@erase ".\*.pch"
+	-@erase ".\*.lib"
+	-@erase ".\*.dll"
+	-@erase ".\*.exp"
+
+OBJS = WindowsTrayIcon.obj
+
+TrayIcon$(JVER).dll:	$(OBJS)
+			$(LINK32) $(LINK32_FLAGS) $(OBJS)
+
+WindowsTrayIcon.obj:	WindowsTrayIcon.cpp
+			$(CXX) $(CFLAGS) WindowsTrayIcon.cpp
+

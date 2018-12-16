@@ -1,0 +1,16 @@
+package com.jeans.trayicon
+
+public class BalloonEvent {
+
+	publif final 
+
+	protected int m_Mask;
+
+	public BalloonEvent(int mask) {
+		m_Mask = mask;
+	}
+	
+	public int getMask() {
+		return m_Mask;
+	}
+}

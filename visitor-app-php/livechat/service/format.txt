@@ -1,0 +1,34 @@
+Operators, login, site_id, username, password
+--
+success, name, id
+
+
+VisitorsOnline, get_online_visitors, site_id
+--
+[session_id1, contact_id1], [session_id2, contact_id2].....
+
+
+Visitors, getinfo, session_id
+--
+Info in HTML format
+
+VisitorsOnline, offline, contact_id
+--
+
+
+
+Message, add, message, contact_id, sender, receiver
+--
+success
+
+
+Message, get_new_message, last_msg_id, session_id
+--
+[newmesage1, msg_id1, status], [newmesage2, msg_id2, status].....
+
+
+
+
+
+
+

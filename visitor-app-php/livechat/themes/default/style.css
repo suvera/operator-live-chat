@@ -1,0 +1,151 @@
+body {
+	margin-top: 0;
+	background-color: #f4f4f4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 81%;
+	line-height: 1.2em;
+}
+.parent_table {
+	background:#FFFFFF url(images/green_vline.jpg) repeat-y;
+	padding-left:1px;
+}
+.content_table {
+}
+.header_main {
+	/*background:url(images/GreenBar.gif) repeat-x;*/
+	background-color:#B5E43E;
+}
+.header_bg_title {
+	background:url(images/header_title.png) center no-repeat;
+}
+.content_main_table {
+	padding:5px;
+}
+.welcome {
+	padding:5px;
+	background-color:#DDDDDD;
+	border:1px solid #999999;
+}
+h1 {
+	font-size:18px;
+}
+a {
+	/*cursor: url('images/Ogr_15l2.cur');*/
+	cursor: url('themes/default/images/Ogr_00N.ani');
+}
+input select {
+	cursor: url('themes/default/images/Ogr_06t2.cur');
+}
+.footer {
+	border-top:1px solid #CCCCCC;
+}
+.copyright {
+	font-weight:lighter;
+	color:#666666;
+	font-size: 80%;
+}
+
+
+/* Links Section */
+.a {
+	color:#045BAE;
+	text-decoration:none;
+}
+.a:hover {
+	color:#207DCA;
+}
+.main_top_hover {
+	background-color:#A5CD38;
+}
+.main_top_normal{
+	background-color:#B5E43E;
+}
+.main_top_a {
+	font-weight:bold;
+	color:#F29100;
+	text-decoration:none;
+}
+.main_top_a:hover {
+	color:#FFAE3E;
+}
+
+/* Tables */
+.main_left {	
+}
+table.main_left td {
+	border-top:1px solid #EfEfEf;
+}
+table.main_left a {
+	font-weight:bold;
+	line-height:40px;
+	padding-left:10px;
+	text-decoration:none;
+}
+table.main_left a:hover {
+	color:#92A3E1;
+}
+.left_table {
+	PADDING: 1px;
+	TEXT-ALIGN: left;
+}
+table.left_table {
+	background-color:#FFFFFF;
+}
+table.left_table th{
+	background-color:#B5E43E;
+	padding-left:10px;
+	color:#B01A1A;
+	font-weight:bold;
+	line-height:30px;
+	text-align:left;
+}
+table.left_table td{
+	font-weight:bold;
+	list-style-type:square;
+	line-height:25px;
+	text-align:left;
+}
+table.left_table a {
+	font-weight:normal;
+	padding-left:28px;
+	text-decoration:none;
+}
+table.left_table a:hover {
+	color:#92A3E1;
+}
+
+.login_left {
+	PADDING: 1px;
+	TEXT-ALIGN: left;
+}
+table.login_left {
+	background-color:#FFFFFF;
+}
+table.login_left th{
+	background-color:#B5E43E;
+	padding-left:10px;
+	color:#B01A1A;
+	font-weight:bold;
+	line-height:30px;
+	text-align:left;
+}
+table.login_left td{
+	padding-left:10px;
+	font-weight:bold;
+	list-style-type:square;
+	line-height:25px;
+}
+table.login_left a {
+	font-weight:normal;
+	padding-left:28px;
+	text-decoration:none;
+}
+table.login_left a:hover {
+	color:#92A3E1;
+}
+
+/* Specific */
+.googlead {
+	border: 1px solid #2D87D6;
+	padding: 4px;
+}
